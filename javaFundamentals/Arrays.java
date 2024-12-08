@@ -3,7 +3,7 @@ import java.util.*;
 
 public class Arrays {
 
-    public static void main(String[] args) {
+    public  static void main(String[] name) {
 
        /*  String email[] = {"paul@gmail.com",
                           "jay@gmail.com",
@@ -48,6 +48,7 @@ public class Arrays {
             System.out.println("Password: " + Password[i]);
     
         }
+        
        
     }
 
