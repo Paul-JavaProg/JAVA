@@ -5,25 +5,6 @@ public class Arrays {
 
     public  static void main(String[] name) {
 
-       /*  String email[] = {"paul@gmail.com",
-                          "jay@gmail.com",
-                          "yawa@gmail.com"};
-
-        String usernames[] = {"Paul",
-                             "Jay",
-                             "Madi"};
-
-        String password[] = {"gsuwru11",
-                             "iwho23",
-                             "wuhfw45"};
-        int i = 2;
-
-        System.out.println("Index:    " + i);
-        System.out.println("Email:    " + email[i]);
-        System.out.println("Username: " + usernames[i]);
-        System.out.println("Password: " + password[i]);
-        */
-
         Scanner s = new Scanner(System.in);
 
         int size = 100;

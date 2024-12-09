@@ -4,19 +4,19 @@ import java.util.Scanner;
 public class ConditionalStatements {
     public static void main(String[] args) {
 
-        Scanner s = new Scanner(System.in);
+        Scanner i = new Scanner(System.in);
 
         System.out.print("Math:     ");
-        double mathGrade = s.nextDouble();
+        double mathGrade = i.nextDouble();
 
         System.out.print("Science:  ");
-        double scienceGrade = s.nextDouble();
+        double scienceGrade = i.nextDouble();
 
         System.out.print("English:  ");
-        double englishGrade = s.nextDouble();
+        double englishGrade = i.nextDouble();
         
         System.out.print("Computer: ");
-        double computerGrade = s.nextDouble();
+        double computerGrade = i.nextDouble();
 
         double average = (mathGrade + scienceGrade + englishGrade + computerGrade ) /4;
 
