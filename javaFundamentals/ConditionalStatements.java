@@ -1,4 +1,5 @@
 package javaFundamentals;
+
 import java.util.Scanner;
 
 public class ConditionalStatements {

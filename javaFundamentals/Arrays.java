@@ -7,7 +7,7 @@ public class Arrays {
 
         Scanner s = new Scanner(System.in);
 
-        int size = 100;
+        int size = 5;
         String Email[] = new String[size];
         String Username[] = new String[size];
         String Password[] = new String[size];
