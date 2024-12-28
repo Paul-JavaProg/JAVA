@@ -1,8 +1,10 @@
 package javaFundamentals;
+
 import java.util.*;
 
 public class Arrays {
 
+    
     public  static void main(String[] name) {
 
         Scanner s = new Scanner(System.in);
@@ -27,9 +29,10 @@ public class Arrays {
             System.out.println("Email:    " + Email[i]);
             System.out.println("Username: " + Username[i]);
             System.out.println("Password: " + Password[i]);
+
+        s.close();
     
-        }
-        
+        }   
        
     }
 

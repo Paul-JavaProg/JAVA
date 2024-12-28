@@ -1,23 +1,22 @@
 package javaFundamentals;
-
-import java.util.Scanner;
+import java.util.*;
 
 public class ConditionalStatements {
-    public static void main(String[] args) {
+       public static void main(String[] args) {
 
-        Scanner i = new Scanner(System.in);
+        Scanner grd = new Scanner(System.in);
 
         System.out.print("Math:     ");
-        double mathGrade = i.nextDouble();
+        double mathGrade = grd.nextDouble();
 
         System.out.print("Science:  ");
-        double scienceGrade = i.nextDouble();
+        double scienceGrade = grd.nextDouble();
 
         System.out.print("English:  ");
-        double englishGrade = i.nextDouble();
+        double englishGrade = grd.nextDouble();
         
         System.out.print("Computer: ");
-        double computerGrade = i.nextDouble();
+        double computerGrade = grd.nextDouble();
 
         double average = (mathGrade + scienceGrade + englishGrade + computerGrade ) /4;
 
@@ -42,6 +41,8 @@ public class ConditionalStatements {
         else{
             System.out.println("Failed");
         }
+
+        grd.close();
 
     }
     

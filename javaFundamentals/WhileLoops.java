@@ -2,6 +2,7 @@ package javaFundamentals;
 import java.util.Scanner;
 
 public class WhileLoops {
+    
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
         
@@ -47,7 +48,12 @@ public class WhileLoops {
         }
         if (lives > 0)System.out.println("You Won");
         else System.out.println("You Lost");
+
+
+
+
         
+        x.close();
         
     }
     

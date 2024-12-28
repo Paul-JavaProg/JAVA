@@ -3,6 +3,7 @@ import java.util.*;
 
 public class Switch {
     public static void main(String[] args) {
+        
         Scanner x = new Scanner(System.in);
 
         int month;
@@ -74,6 +75,7 @@ public class Switch {
                 System.out.println(monthWord + " " + date + ", " + year);
             }
         }
+        x.close();
 
         
 
